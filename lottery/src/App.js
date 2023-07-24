@@ -182,7 +182,7 @@ const App = () =>
         break;
 
       default:
-        document.getElementById("info_text").innerHTML = "Match atleast 3 balls to win lottery"
+        document.getElementById("info_text").innerHTML = matchedNumbers + " Matched. Match atleast 3 balls to win lottery"
         break;
     }
     console.log(matchedNumbers);
