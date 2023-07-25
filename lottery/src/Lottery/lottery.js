@@ -12,7 +12,7 @@ class Balls
         this.all_balls = document.querySelectorAll(".win-balls");
     }
 
-    start_the_game()
+    startGame()
     {
         this.stop_and_go = setInterval(() =>
         {
@@ -27,15 +27,12 @@ class Balls
         }, 2000);
     }
 
-    pick_1_number(col)
+    pickOneNumber(col)
     {
 
         if (col < this.toPickBalls)
         {
             this.num = Math.floor((Math.random() * this.numberOfBalls) + 1);
-        } else
-        {
-            this.num = Math.floor((Math.random() * this.MAX_STAR) + 1);
         }
         return this.num;
     }
@@ -49,7 +46,7 @@ class Balls
         while (this.winningBalls.length < this.toPickBalls)
         {
 
-            this.num = this.pick_1_number(col);
+            this.num = this.pickOneNumber(col);
             // if num not includes in the array winningBalls
             if (!this.winningBalls.includes(this.num))
             {

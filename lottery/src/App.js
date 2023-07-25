@@ -110,7 +110,7 @@ const App = () =>
     document.getElementById("winning-line").innerHTML = "Winning Numbers for the Draw!!!"
     const lottery = new Balls();
     setLottery(lottery);
-    lottery.start_the_game();
+    lottery.startGame();
     await Async();
     let wins = lottery.getWinNumber();
     checkWinAmount(wins);
