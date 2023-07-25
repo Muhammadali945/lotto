@@ -5,6 +5,6 @@ Lottery game using react js
 Node 18.11.0
 
 # To Run
-cd to folder lottery
-run npm install
-run npm start
+cd to folder lottery.
+run npm install.
+run npm start.
