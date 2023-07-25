@@ -224,7 +224,7 @@ const App = () =>
 
   return (
     <div className="App">
-      <h1>LOTTO MILLIONIARE</h1>
+      <h1>LOTTO MILLIONAIRE</h1>
       <p>Pick six balls or try a Lucky Dip</p>
       <div class="grid-container">
         {lotteryPool.map((ball) => <button class="button" id={ball.value} key={ball.value} onClick={() =>
