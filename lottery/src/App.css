@@ -102,6 +102,7 @@ h1 {
   display: inline-block; *display: inline; zoom: 1; vertical-align: top;
   text-align: center;
   font-size: 30px;
+  color: white;
   }
 
   .win-balls {
@@ -114,6 +115,7 @@ h1 {
   display: inline-block; *display: inline; zoom: 1; vertical-align: top;
   text-align: center;
   font-size: 30px;
+  color: white;
   }
 
   .selected-balls-container
